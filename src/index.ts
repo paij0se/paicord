@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 const exec = require("child_process").exec;
 export function screenRecord(
   video_size: string,
