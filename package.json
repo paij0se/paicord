@@ -2,11 +2,16 @@
   "name": "echecord",
   "version": "1.0.0",
   "description": "Node.js screen recording function using ffmpeg.",
-  "main": "screen.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "npm run build",
+    "build": "tsc",
+    "start": "node  dist/test.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "echecord": "^1.0.0"
+  }
 }

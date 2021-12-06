@@ -1,0 +1,4 @@
+src
+*.mp4
+tsconfig.json
+/node_modules
