@@ -1,6 +1,6 @@
 {
   "name": "paicord",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node.js screen recording function using ffmpeg.",
   "main": "dist/index.js",
   "scripts": {
@@ -8,9 +8,11 @@
     "build": "tsc",
     "start": "node  dist/test.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "homepage": "https://github.com/paij0se/paicord",
+  "keywords": ["ffmpeg","screen-record"],
+
+  "author": "paij0se",
+  "license": "MIT",
   "dependencies": {
     "echecord": "^1.0.0"
   }
