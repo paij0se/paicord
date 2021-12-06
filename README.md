@@ -2,7 +2,7 @@
 
 Node.js screen recording function using ffmpeg.
 
-install echecord with `npm i paicord`
+install paicord with `npm i paicord`
 
 **You need to have installed ffmpeg in your system**
 
