@@ -1,4 +1,4 @@
-# echecord
+# paicord
 
 Node.js screen recording function using ffmpeg.
 
