@@ -1,5 +1,5 @@
 {
-  "name": "echecord",
+  "name": "paicord",
   "version": "1.0.0",
   "description": "Node.js screen recording function using ffmpeg.",
   "main": "dist/index.js",
