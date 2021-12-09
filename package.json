@@ -1,6 +1,6 @@
 {
   "name": "paicord",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Node.js screen recording function using ffmpeg.",
   "main": "dist/index.js",
   "scripts": {
@@ -9,8 +9,13 @@
     "start": "node  dist/test.js"
   },
   "homepage": "https://github.com/paij0se/paicord",
-  "keywords": ["ffmpeg","screen-record"],
-
+  "keywords": [
+    "ffmpeg",
+    "screen-record"
+  ],
   "author": "paij0se",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.11.12"
+  }
 }
