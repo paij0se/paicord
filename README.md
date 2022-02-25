@@ -9,7 +9,7 @@ install paicord with `npm i paicord`
 example
 
 ```js
-const paicord = require("paicord")
+const paicord = require("paicord");
 //                    resolution | fps | video time | file name
-paicord.screenRecord("1920x1080", 30, "00:00:10", "uwu.mp4")
+paicord.screenRecord("1366x768", "30", "10", "paicord" + Date.now() + ".mp4");
 ```
